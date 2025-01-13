@@ -1,90 +1,88 @@
-Currency Converter
+# Currency Converter
 
 A simple and intuitive currency converter application built with React and Vite. This app allows users to convert between different currencies using real-time exchange rates fetched from an external API.
 
-Live Demo: https://mbcurrencyconverter.netlify.app/
-Features
+## Live Demo
 
-    Real-time Exchange Rates: Fetches the latest exchange rates from the ExchangeRate-API.
+[Currency Converter Live Demo](https://mbcurrencyconverter.netlify.app/)
 
-    User-friendly Interface: Clean and simple design for easy currency conversion.
+## Features
 
-    Responsive Design: Works seamlessly on both desktop and mobile devices.
+- **Real-time Exchange Rates**: Fetches the latest exchange rates from the ExchangeRate-API.
+- **User-friendly Interface**: Clean and simple design for easy currency conversion.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **Error Handling**: Displays user-friendly error messages for API failures or invalid inputs.
 
-    Error Handling: Displays user-friendly error messages for API failures or invalid inputs.
+## Technologies Used
 
-Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool for modern web projects.
+- **Axios**: A promise-based HTTP client for making API requests.
+- **Material-UI**: A popular React UI framework for styling components.
+- **React Context API**: For managing global state across components.
 
-    React: A JavaScript library for building user interfaces.
+## Getting Started
 
-    Vite: A fast build tool for modern web projects.
+### Prerequisites
 
-    Axios: A promise-based HTTP client for making API requests.
+- **Node.js** (v16 or higher)
+- **npm** (v7 or higher)
 
-    Material-UI: A popular React UI framework for styling components.
+### Installation
 
-    React Context API: For managing global state across components.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Must01/currency_converter.git
+   cd currency_converter
+   ```
 
-Getting Started
-Prerequisites
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-    Node.js (v16 or higher)
+3. **Set up environment variables:**
 
-    npm (v7 or higher)
+   - Create a `.env` file in the root directory.
+   - Add your API key from ExchangeRate-API:
+     ```env
+     VITE_API_KEY=your_api_key_here
+     ```
 
-Installation
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-    Clone the repository:
-    bash
-    Copy
+5. **Open the application:**
 
-    git clone https://github.com/Must01/currency_converter.git
-    cd currency_converter
+   Visit [http://localhost:5173](http://localhost:5173) in your browser.
 
-    Install dependencies:
-    bash
-    Copy
-
-    npm install
-
-    Set up environment variables:
-
-        Create a .env file in the root directory.
-
-        Add your API key from ExchangeRate-API:
-        env
-        Copy
-
-        VITE_API_KEY=your_api_key_here
-
-    Run the development server:
-    bash
-    Copy
-
-    npm run dev
-
-    Open the application:
-
-        Visit http://localhost:5173 in your browser.
-
-Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
-    Fork the repository.
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a pull request.
 
-    Create a new branch (git checkout -b feature/YourFeatureName).
+## License
 
-    Commit your changes (git commit -m 'Add some feature').
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-    Push to the branch (git push origin feature/YourFeatureName).
+## Author
 
-    Open a pull request.
+- **Mustapha Bouddahr**
+- [GitHub](https://github.com/Must01)
 
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-Author
-
-    Mustapha Bouddahr
-    GitHub
