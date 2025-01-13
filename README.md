@@ -5,6 +5,8 @@ A simple and intuitive currency converter application built with React and Vite.
 ## Live Demo
 
 [Currency Converter Live Demo](https://mbcurrencyconverter.netlify.app/)
+![image](https://github.com/user-attachments/assets/aa508e22-3342-4733-96e1-02881cdf4dcb)
+
 
 ## Features
 
