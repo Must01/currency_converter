@@ -108,7 +108,7 @@ function App() {
         <div className="container">
           <nav>
             <img src={logo1} alt="logo" />
-            <h1>Currency Converter</h1>
+            <h1>MB _ Currency Converter</h1>
           </nav>
           {loading ? (
             <div className="spinner"></div> // Spinner

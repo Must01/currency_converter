@@ -1,38 +1,45 @@
-# Currency Converter
+Currency Converter
 
-A simple and intuitive currency converter application built with React and Vite. This application allows users to convert between different currencies using real-time exchange rates fetched from an external API.
+A simple and intuitive currency converter application built with React and Vite. This app allows users to convert between different currencies using real-time exchange rates fetched from an external API.
 
-**Live Demo**: [https://zingy-hummingbird-90c82c.netlify.app/](https://zingy-hummingbird-90c82c.netlify.app/)
+Live Demo: https://mbcurrencyconverter.netlify.app/
+Features
 
-## Features
+    Real-time Exchange Rates: Fetches the latest exchange rates from the ExchangeRate-API.
 
-- **Real-time Exchange Rates**: Fetches the latest exchange rates from the [ExchangeRate-API](https://www.exchangerate-api.com/).
-- **User-friendly Interface**: Simple and clean UI for easy currency conversion.
-- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
-- **Error Handling**: Displays error messages if the API fails to load or if the user enters invalid input.
+    User-friendly Interface: Clean and simple design for easy currency conversion.
 
-## Technologies Used
+    Responsive Design: Works seamlessly on both desktop and mobile devices.
 
-- **React**: A JavaScript library for building user interfaces.
-- **Vite**: A fast build tool for modern web projects.
-- **Axios**: A promise-based HTTP client for making API requests.
-- **Material-UI**: A popular React UI framework for styling components.
-- **React Context API**: For managing global state across components.
+    Error Handling: Displays user-friendly error messages for API failures or invalid inputs.
 
-## Getting Started
+Technologies Used
 
-### Prerequisites
+    React: A JavaScript library for building user interfaces.
 
-- Node.js (v16 or higher)
-- npm (v7 or higher)
+    Vite: A fast build tool for modern web projects.
 
-### Installation
+    Axios: A promise-based HTTP client for making API requests.
 
-1. **Clone the repository**:
+    Material-UI: A popular React UI framework for styling components.
 
-   ```bash
-   git clone https://github.com/your-username/currency-converter.git
-   cd currency-converter
+    React Context API: For managing global state across components.
+
+Getting Started
+Prerequisites
+
+    Node.js (v16 or higher)
+
+    npm (v7 or higher)
+
+Installation
+
+    Clone the repository:
+    bash
+    Copy
+
+    git clone https://github.com/Must01/currency_converter.git
+    cd currency_converter
 
     Install dependencies:
     bash
@@ -44,7 +51,7 @@ A simple and intuitive currency converter application built with React and Vite.
 
         Create a .env file in the root directory.
 
-        Add your API key from ExchangeRate-API as follows:
+        Add your API key from ExchangeRate-API:
         env
         Copy
 
@@ -59,4 +66,25 @@ A simple and intuitive currency converter application built with React and Vite.
     Open the application:
 
         Visit http://localhost:5173 in your browser.
-   ```
+
+Contributing
+
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+
+    Fork the repository.
+
+    Create a new branch (git checkout -b feature/YourFeatureName).
+
+    Commit your changes (git commit -m 'Add some feature').
+
+    Push to the branch (git push origin feature/YourFeatureName).
+
+    Open a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+Author
+
+    Mustapha Bouddahr
+    GitHub
